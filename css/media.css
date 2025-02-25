@@ -1,0 +1,827 @@
+@media screen and (min-width:768px) {
+    header .menu_list {
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .program .card_wrap li {
+        height: 100%;
+    }
+
+    header .menu_list li {
+        border-bottom: 0;
+    }
+
+    header .menu_list li a {
+        color: #fff;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .hero-wrap .rel .txt_wrap h3 {
+        font-size: 2.5rem;
+    }
+
+    .hero-wrap .rel h2 {
+        text-align: initial;
+        font-size: 6.5rem;
+    }
+
+    .btn_wrap a.btn {
+        font-size: 2rem;
+    }
+
+    .hero-wrap .rel {
+        align-items: initial;
+        text-align: initial;
+    }
+
+    .hero-wrap .rel {
+        /* width: 128rem; */
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .program .card_wrap {
+        display: flex;
+        /* width: 120rem; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .menu_list a:hover {
+        background-color: transparent;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        justify-content: center
+    }
+
+    .program .card_wrap li:nth-child(1) a .txt_wrap,
+    .program .card_wrap li:nth-child(2) a .txt_wrap,
+    .program .card_wrap li:nth-child(3) a .txt_wrap {
+        margin: 0 0 5rem 0;
+    }
+
+
+    .program .card_wrap li:nth-child(1) a .img_wrap,
+    .program .card_wrap li:nth-child(2) a .img_wrap,
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        height: 47rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        width: 32rem;
+        height: 47rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap,
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        width: 48.5rem;
+        height: 28rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a,
+    .program .card_wrap li:nth-child(5) a {
+        width: 48.4rem;
+        height: 28rem;
+    }
+
+    .program .card_wrap li a .img_wrap {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_title {
+        font-size: 4rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a .img_wrap {
+        background-image: url(../img/pt-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(2) a .img_wrap {
+        background-image: url(../img/golf-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        background-image: url(../img/pilates-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap {
+        background-image: url(../img/yoga-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        background-image: url(../img/spinning-tablet.png);
+    }
+
+    .program .card_wrap li+li {
+        margin-top: 0rem;
+    }
+
+    .program .rel {
+        margin: auto;
+    }
+
+    .program .card_wrap .txt_wrap h3 {
+        font-size: 5.5rem;
+        text-align: center;
+    }
+
+    .program .card_wrap .txt_wrap .txt {
+        font-size: 1.5rem
+    }
+
+    .banner .rel {
+        background: url(../img/banner\ 768.png) no-repeat center / cover;
+    }
+
+    .banner .tit_wrap h1 {
+        font-size: 5rem;
+    }
+
+    .event .section_title {
+        font-size: 4rem;
+    }
+
+    .event .card_wrap h3 {
+        font-size: 4rem;
+        margin-top: 40rem;
+    }
+
+    .event .card_wrap li {
+        height: 60rem;
+        width: 100%;
+    }
+
+    .page_wrap span {
+        margin-top: 20rem;
+    }
+
+    .trainer h1 {
+        font-size: 4rem;
+    }
+
+    .trainer .rel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more_btn {
+        padding: 2rem;
+        font-size: 2rem;
+    }
+    .trainer .card_wrap {
+        min-width: 90rem;
+    }
+
+    .trainer .swiper-button-next {
+        right: calc(50% - 50rem);
+    }
+
+    .trainer .swiper-button-prev {
+        left: calc(50% - 50rem);
+    }
+
+    .trainer .swiper-button-next,
+    .trainer .swiper-button-prev {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .mobile-place-hide {
+        display: initial;
+    }
+
+    .place .card_wrap li {
+        width: calc(50% - 20px);
+    }
+
+    .place .card_wrap li:nth-child(5),
+    .place .card_wrap li:nth-child(6),
+    .place .card_wrap li:nth-child(7),
+    .place .card_wrap li:nth-child(8),
+    .place .card_wrap li:nth-child(9),
+    .place .card_wrap li:nth-child(10),
+    .place .card_wrap li:nth-child(11),
+    .place .card_wrap li:nth-child(12) {
+        display: initial;
+    }
+
+    .place h1 {
+        font-size: 4rem;
+    }
+
+    footer .support h2 {
+        font-size: 5rem;
+    }
+
+    footer .support .btn_wrap {
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    footer .btn {
+        width: 12rem;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    /* foot_dep footer-dep1 */
+
+    footer .footer-dep1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    footer .footer-dep1 H3 {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    footer .icon_wrap li a{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    /* tel_wrap */
+
+    footer .operation {
+        align-items: center;
+    }
+
+    footer .operation p {
+        gap: 5rem;
+        height: 2.5rem;
+        font-size: 1.4rem;
+    }
+
+    footer .tel p {
+        font-size: 2rem;
+
+    }
+
+    footer .tel h2 {
+        font-size: 2rem;
+    }
+
+    footer .tel_wrap .tel {
+        gap: 3rem;
+    }
+
+    footer .tel_wrap {
+        margin: 1rem;
+    }
+
+    footer .tel_wrap .operation .week {
+        font-size: 3rem;
+    }
+
+    footer .tit_wrap {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    footer .foot_dep+.foot_dep {
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    header .menu_list {
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .program .card_wrap li {
+        height: 100%;
+    }
+
+    header .menu_list li {
+        border-bottom: 0;
+    }
+
+    header .menu_list li a {
+        color: #fff;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .hero-wrap .rel .txt_wrap h3 {
+        font-size: 2.5rem;
+    }
+
+    .hero-wrap .rel h2 {
+        text-align: initial;
+        font-size: 6.5rem;
+    }
+
+    .btn_wrap a.btn {
+        font-size: 2rem;
+    }
+
+    .hero-wrap .rel {
+        align-items: initial;
+        text-align: initial;
+    }
+
+    .hero-wrap .rel {
+        width: 128rem;
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .section_title {
+        font-size: 5rem;
+    }
+
+    .program .card_wrap {
+        display: flex;
+        width: 120rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        justify-content: center
+    }
+
+    .program .card_wrap li:nth-child(1) a .txt_wrap,
+    .program .card_wrap li:nth-child(2) a .txt_wrap,
+    .program .card_wrap li:nth-child(3) a .txt_wrap {
+        margin: 0 0 5rem 0;
+    }
+
+
+    .program .card_wrap li:nth-child(1) a .img_wrap,
+    .program .card_wrap li:nth-child(2) a .img_wrap,
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        height: 57rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        width: 38.5rem;
+        height: 57rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap,
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        width: 58.4rem;
+        height: 38rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a,
+    .program .card_wrap li:nth-child(5) a {
+        width: 58.4rem;
+        height: 38rem;
+    }
+
+    .program .card_wrap li a .img_wrap {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .program .card_wrap li:nth-child(1) a .img_wrap {
+        background-image: url(../img/pt-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(2) a .img_wrap {
+        background-image: url(../img/golf-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        background-image: url(../img/pilates-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap {
+        background-image: url(../img/yoga-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        background-image: url(../img/spinning-tablet.png);
+    }
+
+    .program .card_wrap li+li {
+        margin-top: 0rem;
+    }
+
+    .program .rel {
+        width: 128rem;
+        margin: auto;
+    }
+
+    .program .card_wrap .txt_wrap h3 {
+        font-size: 6.5rem;
+        text-align: center;
+    }
+
+    .program .card_wrap .txt_wrap .txt {
+        font-size: 2rem
+    }
+
+    /* place */
+    .place .card_wrap li {
+        width: calc(33.333% - 20px);
+    }
+
+    .place h1 {
+        font-size: 5rem;
+    }
+
+
+    .event .section_title {
+        font-size: 4rem;
+    }
+
+    .event .rel {
+        margin: auto;
+        width: 120rem;
+        height: 74.3rem;
+    }
+
+    .event .card_wrap li {
+        width: 100%;
+    }
+
+    .event .card_wrap li h3 {
+        font-size: 4rem;
+    }
+
+
+    .trainer h1 {
+        font-size: 5rem;
+    }
+
+    .trainer .rel {
+        margin: auto;
+    }
+
+
+    /* footer */
+
+    footer .support h2 {
+        font-size: 3.2rem;
+    }
+
+    footer .support .btn_wrap {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    footer .btn {
+        width: 23rem;
+        height: 7rem;
+        font-size: 2.5rem;
+    }
+
+    .support {
+        background-image: url(../img/7-footer-tb-bk.png) no-repeat cover/center;
+        min-height: 50vh;
+        width: 100%;
+    }
+
+    /* footer .info */
+
+    footer .footer-dep1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    footer .footer-dep1 H3 {
+        font-size: 6rem;
+    }
+
+    footer .footer-dep1 .icon_wrap {
+        margin: 3rem;
+    }
+
+    footer .icon_wrap li a {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin: .5rem;
+    }
+
+
+    footer .footer-dep1 h3 {
+        margin: 4rem;
+    }
+
+    /* tel_wrap */
+
+    footer .operation {
+        align-items: center;
+    }
+
+    footer .tel_wrap .tel {
+        gap: 4rem;
+    }
+
+    footer .operation p {
+        gap: 1rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    footer .tel h2,
+    footer .tel p {
+        font-size: 2.5rem;
+    }
+
+    footer .tel_wrap {
+        padding: 2rem;
+    }
+
+    footer .tel_wrap .operation .week {
+        font-size: 2rem;
+    }
+
+
+    footer .tit_wrap p {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    footer .tit_wrap {
+        margin: 3rem;
+        flex-direction: column;
+        align-items: flex-end
+    }
+
+    /* .icon_wrap {} */
+
+    footer .support h2 {
+        font-size: 8rem;
+    }
+
+    footer .support .btn_wrap {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    footer .btn {
+        width: 23rem;
+        height: 7.3rem;
+        font-size: 2.5rem;
+    }
+
+    footer .icon_wrap li a{
+        width: 4rem;
+        height: 4rem;
+    }
+    .support {
+        background-image: url(../img/7-footer-tb-bk.png) no-repeat cover/center;
+        min-height: 50vh;
+        width: 100%;
+    }
+
+    /* footer .info */
+
+    footer .footer-dep1 H3 {
+        font-size: 4rem;
+        margin: 4rem;
+    }
+
+    footer .footer-dep1 .icon_wrap {
+        margin: 3rem;
+    }
+
+    .icon_wrap ul li a.img {
+        width: 3.8rem;
+        height: 3.8rem;
+        object-fit: cover;
+    }
+
+    /* tel_wrap */
+
+    footer .operation {
+        align-items: center;
+    }
+
+    footer .operation p {
+        gap: 10px;
+        height: 4rem;
+        font-size: 2rem;
+    }
+
+    footer .tel h2,
+    footer .tel p {
+        font-size: 2.5rem;
+    }
+
+    footer .tel_wrap .operation .week {
+        font-size: 2rem;
+    }
+
+
+    footer .foot_dep+.foot_dep {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+
+    footer .tit_wrap {
+        margin: 3rem;
+        flex-direction: column;
+        align-items: flex-end
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+
+    header .rel{
+        width: 144rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    header .menu_list{
+        font-weight: bold;
+    }
+    .subText {
+        display: block;
+        font-size: 2rem;
+        color: #FFD700;
+        margin-bottom: 3rem;
+    }
+
+    h2.subText.place {
+        width: 100%;
+        text-indent: 11.5rem;
+    }
+
+    h2.subText.program {}
+
+    h2.subText.trainer {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .event .section_title {
+        font-size: 5rem;
+    }
+
+    .event .card_wrap li {
+        align-items: flex-start;
+        padding-left: 3rem;
+    }
+
+    .event .card_wrap li h3 {
+        font-size: 5rem;
+    }
+
+    .event .card_wrap li p {
+        font-size: 2.6rem;
+        display: block;
+        margin-bottom: 5rem;
+        color: #fff;
+        letter-spacing: .2rem;
+    }
+    .event .page_wrap{
+        padding: 3rem;
+    }
+    .page_wrap span {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .trainer .card_wrap {
+        min-width: 144rem;
+    }
+
+    .trainer .swiper-button-next {
+        right:calc(50% - 85rem);
+    }
+    .trainer .swiper-button-prev {
+        left:calc(50% - 85rem);
+    }
+    .trainer .swiper-slide h3 {
+        top: calc(100% - 11rem);
+        left: 2rem;
+        font-size: 3rem;
+    }
+    .trainer .swiper-slide .intro{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer .footer-dep1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       /* padding: 10rem; */
+    }
+    
+    /* footer .operation p {
+        gap: 1rem;
+        height: 4rem;
+        font-size: 2rem;
+    } */
+
+    footer .support h2 {
+        font-size: 3.2rem;
+    }
+
+    footer .support .btn_wrap {
+        justify-content: center;
+        flex-direction: row;
+        gap: 10rem;
+    }
+
+    footer .btn {
+        width: 26.9rem;
+        height: 8.5rem;
+        font-size: 3rem;
+    }
+
+    footer .btn_wrap a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .footer-dep1 H3 {
+        font-size: 3.2rem;
+        margin: 6rem;
+    }
+
+    footer .icon_wrap li a {
+        width: 5.7rem;
+        height: 5.7rem;
+        margin: 1rem;
+    }
+
+    footer .support {
+        background: url(../img/7-footer-dk.png) no-repeat cover/center;
+    }
+
+    /* tel_wrap */
+
+    footer .tel h2,
+    footer .tel p {
+        font-size: 3rem;
+    }
+
+    footer .tel_wrap .tel{
+        gap: 2rem;
+    }
+
+    footer .operation p {
+        height: 6rem;
+        font-size: 3rem;
+    }
+
+    footer .tel_wrap {
+        padding: 10rem;
+    }
+
+    footer .tel_wrap .operation {
+        font-size: 3rem;
+    }
+
+
+    footer .foot_dep+.foot_dep {
+        font-size: 2rem;
+
+    }
+}

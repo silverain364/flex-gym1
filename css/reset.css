@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroM.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroL';
+    src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+    padding: 15rem 2rem;
+    z-index: 1;
+}
+
+.rel {
+    position: relative;
+    height: 100%;
+}
+
+#wrap{
+    max-width: 192rem;
+    margin: auto;
+}
+
+
+/* 버튼 */
+.btn {
+    color: black;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 6rem;
+    letter-spacing: -.04rem;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #FFD700;
+}
+
+
+/* 섹션 제목 */
+.section_title {
+    font-size: 3rem;
+    font-family: 'SBAggroM';
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+/* 로고 */
+.tit_logo{
+    font-family: 'SBAggroM';
+    font-weight: normal;
+    font-style: normal;
+    color:#FFD700 ; 
+    font-size: 3.2rem; 
+    text-shadow: 0.3rem 0.2rem #000 ;  
+}
